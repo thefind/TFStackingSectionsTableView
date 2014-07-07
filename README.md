@@ -4,7 +4,7 @@ TFStackingSectionsTableView
 * Keep all of your table section headers on the screen
 * Tap a header to bring a section into view
 
-![screenshot](https://raw.githubusercontent.com/thefind/TFStackingSectionsTableView/master/Screenshots/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/thefind/TFStackingSectionsTableView/master/Screenshots/video.gif)
 
 In a regular table view, only the current section header is pinned to the top.
 TFStackingSectionsTableView keeps all the section headers on screen, stacked
