@@ -112,7 +112,7 @@
     }
 }
 
-#pragma Action Handlers
+#pragma mark - Tap Gesture Handlers
 
 - (void)viewWasTapped:(UITapGestureRecognizer *)gestureRecognizer
 {
@@ -137,8 +137,6 @@
     }
 }
 
-#pragma Tap Gesture Delegate
-
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 {
     if (gestureRecognizer == self.tapGestureRecognizer) {
@@ -149,7 +147,7 @@
     return YES;
 }
 
-#pragma Private
+#pragma mark - Private
 
 - (void)addSectionHeaders
 {
