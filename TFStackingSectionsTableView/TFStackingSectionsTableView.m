@@ -194,9 +194,9 @@
     CGFloat contentTop      = self.frame.origin.y + self.contentInset.top + topMargin;
     CGFloat contentBottom   = self.frame.size.height - self.contentInset.bottom;
     
-    int sectionCount = self.sectionHeaders.count;
+    NSUInteger sectionCount = self.sectionHeaders.count;
     
-    for (int section = 0; section < sectionCount; ++section) {
+    for (NSUInteger section = 0; section < sectionCount; ++section) {
         UIView *sectionHeader = self.sectionHeaders[section];
         
         UIView *defaultHeaderView = [self headerViewForSection:section];
