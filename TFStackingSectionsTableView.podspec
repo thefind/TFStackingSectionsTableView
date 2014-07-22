@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author              = { "phatmann" => "thephatmann@gmail.com" }
   s.social_media_url    = "http://twitter.com/thephatmann"
   s.platform            = :ios, "7.0"
-  s.source              = { :git => "https://github.com/thefind/TFStackingSectionsTableView.git", :tag => "1.0.0" }
+  s.source              = { :git => "https://github.com/thefind/TFStackingSectionsTableView.git", :tag => "v1.0.0" }
   s.source_files        = "TFStackingSectionsTableView"
   s.requires_arc        = true
 end
